@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lets Grow More</title>
+  <link rel="stylesheet" href="regis.css">
+</head>
+<body>
+  <header>
+    <h1>Lets Grow More</h1>
+  </header>
+
+  <div id="container">
+    <div id="enrollment-container">
+      <div id="enroll-form">
+        <h2>Enrollment Form</h2>
+        <form id="studentForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="email">Email ID:</label>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="website">Website:</label>
+          <input type="text" id="website" name="website"><br><br>
+
+          <label for="imageurl">Image URL:</label>
+          <input type="text" id="imageurl" name="imageurl"><br><br>
+
+          <label>Gender:</label><br>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br><br>
+
+          <label>Skills:</label><br>
+          <input type="checkbox" id="skill1" name="skill" value="HTML">
+          <label for="skill1">HTML</label><br>
+          <input type="checkbox" id="skill2" name="skill" value="CSS">
+          <label for="skill2">CSS</label><br>
+          <input type="checkbox" id="skill3" name="skill" value="JavaScript">
+          <label for="skill3">JavaScript</label><br><br>
+
+          <input type="submit" value="Enroll">
+          <input type="reset" value="Cancel">
+        </form>
+      </div>
+
+      <div id="enroll-details">
+        <!-- Enrolled student entries will appear here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="regis.js"></script>
+</body>
+</html>
